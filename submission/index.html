@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YumCakes | Project Sederhana</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- bagian header -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Yum<span>Cakes</span></div>
+        <div class="nav-list">
+          <a href="#home">Beranda</a>
+          <a href="#about">Tentang Kami</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Hubungi Kami</a>
+        </div>
+        <div class="nav-menu" id="hamburger-menu"><a href="#"><i data-feather="menu"></i></a></div>
+      </nav>
+    </header>
+    <!-- akhir header -->
+
+    <!-- halaman utama -->
+
+    <!--hero section -->
+    <main>
+      <article>
+        <section class="hero" id="home">
+          <div class="content">
+            <h1>Selamat Datang di YumCakes</h1>
+            <p>Experience the Magic of Our <span>Cakes</span></p>
+            <button><a href="#">Beli Sekarang</a></button>
+          </div>
+        </section>
+      </article>
+
+      <!-- about section -->
+      <article>
+        <section class="about" id="about">
+          <div class="main">
+            <img src="img/img-about.png" />
+            <div class="about-text">
+              <h2>Tentang <span>Kami</span></h2>
+              <p>
+                Selama lebih dari satu dekade, YumCakes menjadi tempat yang tak tergantikan bagi pecinta kue di kota ini. Sejak didirikan, toko ini telah menyajikan kualitas terbaik dan kelezatan yang tak tertandingi dalam setiap kreasinya.
+                Dengan beragam pilihan kue yang lezat, mulai dari kue untuk acara spesial hingga kue-kue modern yang inovatif, Toko YumCakes tujuan utama bagi para penikmat manis di seluruh kota ini. Keunggulan toko ini terletak pada
+                bahan-bahan segar yang dipilih dengan teliti, olahan yang dibuat secara profesional oleh para koki terampil, serta rasa yang autentik dan memanjakan lidah.
+              </p>
+              <p>
+                Berkunjunglah ke YumCakes dan rasakan sendiri kenikmatan kue-kue istimewa yang tak akan Anda temukan di tempat lain. Jangan lewatkan kesempatan untuk merasakan manisnya hidup dengan sepotong kelezatan yang terasa luar biasa!
+              </p>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!-- akhir about section -->
+
+      <!-- menu section -->
+      <article>
+        <section class="menu" id="menu">
+          <h2>Menu <span>Kami</span></h2>
+          <div class="container">
+            <div class="card-container">
+              <div class="card">
+                <div class="img-content">
+                  <img src="img/img-menu1.jpg" alt="Cupcakes" />
+                </div>
+                <div class="content">
+                  <h3 class="title">Cupcakes</h3>
+                  <p class="varriant">Yum Choco Almond</p>
+                  <p class="price">- IDR 8K</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="img-content">
+                  <img src="img/img-menu2.jpg" alt="Cupcakes" />
+                </div>
+                <div class="content">
+                  <h3 class="title">Cupcakes</h3>
+                  <p class="varriant">Yum Sweet Strobery</p>
+                  <p class="price">- IDR 5K</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="img-content">
+                  <img src="img/img-menu3.jpg" alt="Cupcakes" />
+                </div>
+                <div class="content">
+                  <h3 class="title">Birthday Cakes</h3>
+                  <p class="varriant">Yum Cream Cheese</p>
+                  <p class="price">- IDR 65K</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="img-content">
+                  <img src="img/img-menu4.jpg" alt="Cupcakes" />
+                </div>
+                <div class="content">
+                  <h3 class="title">Birthday Cakes</h3>
+                  <p class="varriant">Yum Rainbow Strawbery</p>
+                  <p class="price">- IDR 55K</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="img-content">
+                  <img src="img/img-menu5.jpg" alt="Cupcakes" />
+                </div>
+                <div class="content">
+                  <h3 class="title">Wedding Cakes</h3>
+                  <p class="varriant">Yum Floral Fantasy Cake</p>
+                  <p class="price">- IDR 275K</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="img-content">
+                  <img src="img/img-menu6.jpg" alt="Cupcakes" />
+                </div>
+                <div class="content">
+                  <h3 class="title">Wedding Cakes</h3>
+                  <p class="varriant">Yum Daisy Dream Cake</p>
+                  <p class="price">- IDR 250K</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!-- akhir menu section -->
+
+      <!-- contact section -->
+      <article class="container-contact">
+        <section class="contact" id="contact">
+          <div class="contact-form">
+            <h2 class="heading">Hubungi Kami</h2>
+            <form>
+              <label for="name">Nama:</label>
+              <input type="text" required="" />
+              <label for="email">No HandPhone:</label>
+              <input type="number" id="number" name="number required=" />
+              <label for="message">Pemesanan:</label>
+              <textarea id="message" name="message" required=""></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </section>
+      </article>
+      <!--  akhir contact section -->
+
+      <!-- halaman aside -->
+      <aside class="container-profile">
+        <div class="content-profile">
+          <div class="img-card"><img src="img/profile.png" /></div>
+          <div>
+            <h4 class="profile-name">Tentang Saya</h4>
+            <p class="info">
+              Hallo, perkenalkan nama saya Miftahul Ahyar Abdilla. Usia 22 Tahun dan saat ini sedang menempuh pendidikan S1 Jurusan Ilmu Politik. Saya memiliki ketertarikan pada dunia IT sehingga memutuskan untuk belajar lebih dalam dengan
+              mengikuti salah satu program kerjasama antara kementrian dan DiCoding Indonesia.
+            </p>
+          </div>
+        </div>
+      </aside>
+      <!-- akhir halaman aside -->
+    </main>
+    <footer>
+      <div class="copy-right">&copy;2023, <span>YumCakes Official</span>
+        <p>Follow For More</p>
+      </div>
+      <div class="icon">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="linkedin"></i></a>
+        <a href="#"><i data-feather="github"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
